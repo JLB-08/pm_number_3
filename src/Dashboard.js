@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
-import Login from './Login';
-import './App.css';
 
-class App extends Component{
+
+class Dashboard extends Component{
     render(){
         return(
             <div>
-                <Login/>
+               <h3>Welcome to my World {this.props.name}</h3>
             </div>
         )
     }
 }
 
-export default App;
+export default Dashboard;
